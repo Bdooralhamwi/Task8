@@ -1,0 +1,176 @@
+footer {
+  justify-content: space-between;
+  background-color: #222222;
+
+  padding: 0 33px;
+  font-size: 17px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+footer .footer .logo {
+  width: 60%;
+}
+
+footer .footer .logo > span {
+  font-size: 17px;
+  color: white;
+  margin-bottom: 20px;
+}
+footer .footer .logo p {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+footer .footer .logo a {
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  margin-top: 15px;
+  text-decoration: none;
+}
+footer .footer .Sales {
+  width: 50%;
+}
+footer .footer .Sales p {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 15px;
+}
+footer .footer .Sales p:last-of-type {
+  margin-top: 10px;
+}
+
+footer .footer .Sales a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer .Customer {
+  width: 50%;
+}
+footer .footer .Customer p {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 15px;
+}
+footer .footer .Customer p:last-of-type {
+  margin-top: 10px;
+}
+
+footer .footer .Customer a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer .Useful {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .footer .Useful p {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 25px;
+}
+footer .footer .Useful span {
+  font-size: 15px;
+  color: white;
+}
+footer .footer .link {
+  width: 40%;
+}
+footer .footer .link p {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: white;
+}
+footer .footer .link .link1 a {
+  margin-right: 10px;
+}
+footer .Reserved {
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px 33px 23px;
+  position: relative;
+}
+footer .Reserved::after {
+  position: absolute;
+  content: "";
+  width: 900px;
+  height: 2px;
+  background-color: white;
+  right: 60px;
+  bottom: 28px;
+}
+
+footer .Reserved p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+@media (max-width: 700px) {
+  footer {
+    padding: 0;
+  }
+
+  footer .footer .logo {
+    width: 100%;
+    padding-left: 40px;
+    margin-bottom: 20px;
+  }
+  footer .footer .Sales {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
+  footer .footer .Customer {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
+
+  footer .footer {
+    flex-direction: column;
+  }
+  footer .footer .Useful {
+    width: 100%;
+    padding-left: 40px;
+  }
+  footer .footer .link {
+    width: 100%;
+    padding-left: 40px;
+    margin-top: 20px;
+  }
+footer .Reserved::after {
+  width: 150px;
+  right: 4px;
+
+}
+footer .Reserved {
+  position: relative;
+
+
+}
+footer .Reserved p {
+  font-size: 15px;
+}
+
+footer .Reserved::after {
+  position: absolute;
+  content: "";
+  width: 900px;
+  height: 2px;
+  top: 0;
+
+}
+
+
+
+}

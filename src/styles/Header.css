@@ -1,0 +1,130 @@
+header {
+  width: 100%;
+  height: 48px;
+  background: #ffffff;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 33px;
+  padding-left: 33px;
+  position: static;
+  z-index: 999;
+  top: 0px;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  margin-right: 35px;
+}
+header p {
+  font-size: 18px;
+  color: #282828;
+}
+header nav a {
+  text-decoration: none;
+  margin-right: 20px;
+  padding-top: 7px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #938c8c;
+  position: relative;
+}
+header nav a::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+}
+header nav a:hover::after {
+  background-color: #ff8500;
+}
+header .menu {
+  display: none;
+}
+
+.nav-par {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  right: 0;
+  background-color: white;
+  height: 100vh;
+  top: 0;
+  transition: 0.5s;
+
+  padding: 30px 20px 0 10px;
+  z-index: 999;
+  background: #ffffff;
+  box-shadow: -31px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px 0px 0px 0px;
+  padding-left: 15px;
+  gap: 10px;
+  display: none;
+}
+.nav-par a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  position: relative;
+}
+.nav-par a:first-of-type {
+  border-top: 1px solid #282828;
+  width: 100%;
+}
+
+.nav-par a::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+}
+.nav-par a:hover::before {
+  background-color: #ff8500;
+}
+.nav-par .menu {
+  font-size: 22px;
+  cursor: pointer;
+  color: #282828;
+}
+.nav-par .menu1 {
+  position: absolute;
+  bottom: 20px;
+  left: -80px;
+  font-size: 40px;
+  background-color: #ff8500;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: -5px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 700px) {
+  header nav a {
+    display: none;
+  }
+  header .menu {
+    display: flex;
+    font-size: 30px;
+    cursor: pointer;
+    color: #282828;
+  }
+  .nav-par {
+    display: flex;
+  }
+  header img {
+    margin-right: 20px;
+  }
+  header p {
+    font-size: 15px;
+  }
+}

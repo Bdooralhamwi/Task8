@@ -1,0 +1,127 @@
+#Pricing {
+  background-color: #222222;
+  padding-top: 69px;
+  padding-bottom: 80px;
+}
+#Pricing h1 {
+  text-align: center;
+  margin-bottom: 39px;
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+#Pricing .cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 37px;
+  flex-wrap: wrap;
+}
+#Pricing .cards .card {
+  display: flex;
+  flex-direction: column;
+  border-top: 22px solid #ff8500;
+  background-color: #fff;
+  border-radius: 14px;
+  width: 22vw;
+  padding: 21px 0px 20px 25px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+}
+#Pricing .cards .card:nth-of-type(2) {
+  border-top: 22px solid #a513ff;
+}
+#Pricing .cards .card:nth-of-type(3) {
+  border-top: 22px solid #71aa27;
+}
+#Pricing .cards .card:nth-of-type(4) {
+  border-top: 22px solid #1d5edd;
+}
+
+#Pricing .cards .card h3 {
+  font-size: 20px;
+  
+}
+#Pricing .cards .card p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+#Pricing .cards .card span {
+  font-size: 16px;
+}
+#Pricing .cards .card h4 {
+  color: #ff8500;
+  border: 2px solid #ff8500;
+  margin-top: 18px;
+  text-align: center;
+  padding: 9px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fff;
+  outline: none;
+  margin-left: 1px;
+  margin-right: 25px;
+  border-radius: 10px;
+  width: calc(100% - 25px);
+
+}
+#Pricing .cards .card:nth-of-type(2) h4 {
+  color: #a513ff;
+  border: 2px solid #a513ff;
+}
+#Pricing .cards .card:nth-of-type(3) h4 {
+  color: #71aa27;
+  border: 2px solid #71aa27;
+}
+#Pricing .cards .card:nth-of-type(4) h4 {
+  color: #1d5edd;
+  border: 2px solid #1d5edd;
+}
+#Pricing > p {
+  text-align: center;
+  color: #fff;
+}
+#Pricing > span {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+#Pricing > span > span {
+  margin-inline: 25px;
+}
+#Pricing > span > a {
+  margin-inline: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  #Pricing .cards {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 50px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  #Pricing .cards .card {
+    width: 100%;
+  }
+  #Pricing > p {
+    max-width: 380px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  #Pricing > span {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  #Pricing span span {
+    margin-left: 2px;
+  }
+}

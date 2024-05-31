@@ -1,0 +1,84 @@
+#Services {
+  padding-top: 87px;
+}
+#Services h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+#Services .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+#Services .cards .card {
+  width: 610px;
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+  padding: 30px 0 42px 33px;
+  position: relative;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 93px;
+  border-radius: 0px 44px 44px 0px;
+  position: relative;
+}
+#Services .cards .card h2 {
+  font-size: 30px;
+  margin-bottom: 23px;
+  font-size: 24px;
+  width: fit-content;
+  position: relative;
+  color: #282828;
+  border-bottom: 3px solid #ff8500;
+}
+#Services .cards .card h2.B2B {
+  border-bottom: 3px solid #a513ff;
+}
+#Services .cards .card p:first-of-type {
+  font-size: 18px;
+  color: #282828;
+  font-weight: 900;
+}
+#Services .cards .card .subtitel {
+  line-height: 20px;
+  margin-bottom: 17px;
+  font-weight: 100;
+  display: block;
+}
+#Services .cards .card p:last-of-type {
+  margin-bottom: 17px;
+  color: #282828;
+  font-weight: 700;
+  font-size: 20px;
+}
+#Services .cards .card .span {
+  margin-bottom: 17px;
+  color: #8a8a8a;
+  font-size: 16px;
+  font-weight: 100;
+  color: #282828;
+}
+#Services .cards .card img {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+#Services .cards .card .last {
+  margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+  #Services .cards {
+    flex-direction: column;
+  }
+  #Services .cards .card {
+    width: 400px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  #Services .cards .card img {
+    width: 180px;
+   
+  }
+}
